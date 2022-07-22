@@ -1,18 +1,21 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3.0 + Vite" />
-  <test/>
+  <!-- <test/> -->
+  <test-ts/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import test from './components/test.vue'
+import TestTs from './components/TestTs.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    test
+    test,
+    TestTs
   },
 
   setup () {
